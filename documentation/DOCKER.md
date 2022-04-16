@@ -5,7 +5,7 @@
 ## HOW TO USE THIS IMAGE
 
 ```shell
-docker-compose build --no-cache && docker run -it --rm xotomachine_machine
+docker-compose build --no-cache && docker run -it --rm xotomachine-docker_machine
 ```
 
 <hr>
