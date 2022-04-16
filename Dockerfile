@@ -38,15 +38,15 @@ WORKDIR ${USER_HOME}
 
 RUN /setup/apts.sh
 
-# RUN /setup/language.sh
-# RUN /setup/database.sh
+RUN /setup/language.sh
+RUN /setup/database.sh
 
 RUN /setup/zsh.sh
 RUN /setup/dotfiles.sh
 
-# RUN /setup/package.sh
-# RUN /setup/ccat.sh
-# COPY --chown=$USER_NAME:$USER_GROUP $REPO_PATH/ccat /usr/local/bin/
+RUN /setup/package.sh
+RUN /setup/ccat.sh
+COPY --chown=$USER_NAME:$USER_GROUP $REPO_PATH/ccat /usr/local/bin/
 
 RUN /setup/clean.sh
 
