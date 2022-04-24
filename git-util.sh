@@ -31,4 +31,4 @@ updateSubRepo() {
 	echo "Updating Complete! 🥞"
 }
 
-updateSubRepoGit()
+updateSubRepoGit
