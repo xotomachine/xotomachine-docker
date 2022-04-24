@@ -1,7 +1,7 @@
 <h1 align="center">Welcome to XotoMachines! 👋</h1>
 > 💨 ubuntu machine with docker
 
-###  INSTALLATION
+###  CLONE
 ``` shell
 git clone --recurse-submodules https://github.com/xotomachine/xotomachine-docker.git > /dev/null
 ```
