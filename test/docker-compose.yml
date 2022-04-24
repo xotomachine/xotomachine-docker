@@ -10,5 +10,5 @@ services:
 
   # BASE IMAGE TO BE TESTED BY SUT
   base-image:
-    image: xotoguest/base-image:sut
+    image: xotomachine/base-image:sut
     build: .

@@ -5,7 +5,10 @@
 ## HOW TO USE THIS IMAGE
 
 ```shell
-docker-compose build --no-cache && docker run -it --rm xotomachine-docker_machine
+docker-compose build --no-cache && docker run -it --rm xotomachine-docker_machine # build and run
+docker login # login to docker hub
+docker push gregcousin126/xotomachine-docker # push to docker hub
+cd /home docker run --rm -it -v $PWD:/xotomachine gregcousin126/xotomachine-docker:latest # run machine
 ```
 
 <hr>
