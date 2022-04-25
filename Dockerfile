@@ -31,6 +31,7 @@ SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 COPY $REPO_PATH ./setup
 RUN chmod a+x /setup/*.sh
 
+RUN /setup/user.sh
 RUN /setup/root.sh
 
 USER $USER_NAME
