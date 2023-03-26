@@ -1,0 +1,32 @@
+{
+  "recommendations": [
+
+    // EDITORCONFIG:
+    "editorconfig.editorconfig",
+
+    // DOCKER:
+    "ms-azuretools.vscode-docker",
+
+    // DOCKERFILE =>  BINARY VERSION: V2.1.0
+    "exiasr.hadolint",
+
+    // TASKS / MAKEFILE TARGETS
+    "spmeesseman.vscode-taskexplorer",
+
+    // GITHUB ACTIONS
+    "cschleiden.vscode-github-actions",
+
+    // YAML
+    "redhat.vscode-yaml",
+
+    // MARKDOWN
+    "davidanson.vscode-markdownlint",
+    "shd101wyy.markdown-preview-enhanced",
+    "yzhang.markdown-all-in-one",
+
+    // FORMATTERS =>  YAML, MARKDOWN
+    "esbenp.prettier-vscode"
+  ],
+
+  "unwantedRecommendations": []
+}

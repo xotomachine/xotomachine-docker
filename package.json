@@ -1,0 +1,11 @@
+{
+  "name": "xotomachine-docker",
+  "description": "🤖 machine docker",
+  "license": "ISC",
+  "private": true,
+  "scripts": {
+    "start": "docker-compose --env-file .env build --no-cache && docker run -it --rm xotomachine_machine",
+    "clean": "sh scripts/docker/clean.sh",
+    "git:update": "sh ./git-util.sh"
+  }
+}
